@@ -11,9 +11,6 @@
 #define uS_TO_S_FACTOR 1000000  /* Conversion factor for micro seconds to seconds */
 #define ONE_WIRE_BUS 2
 #define BATTERY_PIN 35   // battery level measurement pin, here is the voltage divider connected
-#define MOIST1      13   // Analogue soil sensor 1
-#define MOIST2      25   // Analogue soil sensor 2
-#define DHTPIN      22   // DHT11
 #define BLUELED     14   // GPIO14
 #define BTN1        39   // GPIO39 On board button
 #define BUSPWR       0   // GPIO00

@@ -90,8 +90,6 @@ void startLoRa() {
   else
     Serial.println("Started LoRa OK");
 
-#if true
-
   LoRa.setPreambleLength(config.preamble);
   LoRa.setSyncWord(config.syncword);    
   LoRa.setSignalBandwidth(config.bandwidth);
@@ -101,11 +99,6 @@ void startLoRa() {
       LoRa.enableCrc();
     else 
       LoRa.disableCrc();
-
-#else
-  
-  
-#endif      
 
   LoRa.receive();
 }
